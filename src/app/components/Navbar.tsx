@@ -46,7 +46,9 @@ export default function Navbar() {
             href="#top"
             className="font-display text-lg tracking-tight text-black"
           >
-            Khethiwe
+            <img src="/Khethiwe Creatives Word Version-01.png" 
+              alt=""
+              className="h-auto w-32  object-contain sm:w-40 md:w-44" />
           </a>
 
           {/* Symbol Logo */}
@@ -55,9 +57,9 @@ export default function Navbar() {
             aria-label="Home"
           >
             <img
-              src="/favicon.ico"
+              src="/Khethiwe Creatives Logo Mark Version tr-01.png"
               alt="Logo"
-              className="h-10 w-10 object-contain"
+              className="h-9 w-9 object-contain sm:h-10 sm:w-10"
             />
           </a>
 

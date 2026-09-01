@@ -11,11 +11,13 @@ export default function Hero() {
           href="#top"
           className="font-display text-xl tracking-[0.08em] text-black sm:text-2xl"
         >
-          KHETHIWE CREATIVES
+          <img src="/Khethiwe Creatives Word Version-01.png" 
+            alt=""
+            className="h-auto w-48 object-contain sm:w-56 md:w-72" />
         </a>
 
         {/* Main Statement */}
-        <h1 className="mt-14 max-w-4xl font-display text-[2.6rem] leading-[1.05] tracking-tight text-black text-balance sm:mt-16 sm:text-5xl md:text-6xl lg:text-7xl">
+        <h1 className="mt-10 max-w-4xl font-display text-[2.6rem] leading-[1.05] tracking-tight text-black text-balance sm:mt-16 sm:text-5xl md:text-6xl lg:text-7xl">
           We create the visual world
           <br className="hidden sm:block" />
           <span className="text-accent"> around your vision.</span>
