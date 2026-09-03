@@ -48,7 +48,8 @@ export default function Hero() {
         {/* Social Links */}
         <div className="mt-16 flex items-center gap-6 font-body text-[10px] uppercase tracking-[0.12em] text-black/50 sm:mt-20">
           <a
-            href="#"
+            href="https://www.instagram.com/khethiwecreatives2024?igsi=MXRkYnZuYnU0cHh1OQ=="
+            target="_blank"
             className="transition-colors hover:text-accent"
           >
             Instagram
@@ -57,7 +58,8 @@ export default function Hero() {
           <span className="h-1 w-1 rounded-full bg-black/30" />
 
           <a
-            href="#"
+            href="https://www.behance.net/khethiwcreativ"
+            target="_blank"
             className="transition-colors hover:text-accent"
           >
             Behance
@@ -66,7 +68,8 @@ export default function Hero() {
           <span className="h-1 w-1 rounded-full bg-black/30" />
 
           <a
-            href="#"
+            href="https://www.linkedin.com/in/khethiwe-creatives-undefined-065435433/"
+            target="_blank"
             className="transition-colors hover:text-accent"
           >
             LinkedIn

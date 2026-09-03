@@ -55,6 +55,7 @@ export default function Navbar() {
           <a
             href="#top"
             aria-label="Home"
+            className="hidden sm:block"
           >
             <img
               src="/Khethiwe Creatives Logo Mark Version tr-01.png"

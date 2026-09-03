@@ -16,41 +16,35 @@ export default function Footer() {
               alt="Khethiwe Creatives"
               className="h-9 w-9 object-contain"
             />
-
-            <span className="font-display text-lg tracking-tight text-black">
-              Khethiwe Creatives
-            </span>
           </a>
 
           {/* Social links */}
           <div className="flex flex-wrap items-center gap-x-6 gap-y-3 font-body text-[10px] uppercase tracking-[0.12em] text-black/50">
             <a
-              href="#"
+              href="https://www.instagram.com/khethiwecreatives2024?igsi=MXRkYnZuYnU0cHh1OQ=="
+              target="_blank"
               className="transition-colors hover:text-accent"
             >
               Instagram ↗
             </a>
 
             <a
-              href="#"
+              href="https://www.behance.net/khethiwcreativ"
+              target="_blank"
               className="transition-colors hover:text-accent"
             >
               Behance ↗
             </a>
 
             <a
-              href="#"
+              href="https://www.linkedin.com/in/khethiwe-creatives-undefined-065435433/"
+              target="_blank"
               className="transition-colors hover:text-accent"
             >
               LinkedIn ↗
             </a>
 
-            <a
-              href="#"
-              className="transition-colors hover:text-accent"
-            >
-              TikTok ↗
-            </a>
+           
           </div>
         </div>
 
