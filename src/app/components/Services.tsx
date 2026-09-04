@@ -11,11 +11,9 @@ const SERVICES = [
       "Editorial",
       "Fashion",
       "Events",
-      "Real Estate",
-      "Product",
       "Lifestyle",
     ],
-    pricing: "From R1,500",
+    pricing: "From R1,000",
     pricingNote: "Final pricing depends on the shoot requirements.",
   },
   {
@@ -24,16 +22,15 @@ const SERVICES = [
     description:
       "Moving image built to capture attention, communicate a story and give your ideas presence.",
     services: [
-      "Brand Films",
+      "Artist Visuals",
       "Promotional Video",
       "Social Content",
       "Short-form Video",
       "Events",
-      "Artist Visuals",
       "BTS Content",
       "Video Editing",
     ],
-    pricing: "Custom Quote",
+    pricing: "R2,500",
     pricingNote:
       "Quoted according to production scope, deliverables and post-production.",
   },
@@ -52,7 +49,7 @@ const SERVICES = [
       "Campaign Design",
       "Print & Digital",
     ],
-    pricing: "Custom Quote",
+    pricing: "R2,500",
     pricingNote:
       "Smaller design projects may have starting prices; larger identity work is scoped individually.",
   },
@@ -71,7 +68,7 @@ const SERVICES = [
       "Landing Pages",
       "Interactive Experiences",
     ],
-    pricing: "Custom Quote",
+    pricing: "R3,500",
     pricingNote:
       "Pricing depends on pages, functionality, integrations and development requirements.",
   },
