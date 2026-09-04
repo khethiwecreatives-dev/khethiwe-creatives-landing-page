@@ -7,7 +7,7 @@ const PROJECTS = [
     title: "CHPTR IV - Chriselda",
     category: "Photography",
     type: "Editorial Photography",
-    image: "/portfolio/photography/editorial/Chriselda--BY-01.jpg",
+    image: "/portfolio/photography/Editorial/Chriselda--BY-01.jpg",
     slug: "project-name",
   },
   {
