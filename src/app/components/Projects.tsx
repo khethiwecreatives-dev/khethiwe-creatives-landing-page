@@ -4,17 +4,17 @@ import Reveal from "./Reveal";
 
 const PROJECTS = [
   {
-    title: "Project Name",
+    title: "CHPTR IV - Chriselda",
     category: "Photography",
     type: "Editorial Photography",
-    image: "/projects/photography-01.jpg",
+    image: "/portfolio/photography/editorial/Chriselda--BY-01.jpg",
     slug: "project-name",
   },
   {
-    title: "Project Name",
+    title: "Teekay & Nokwanda Couple Moment",
     category: "Photography",
     type: "Portrait Photography",
-    image: "/projects/photography-02.jpg",
+    image: "/portfolio/photography/portrait/TK--Nokwanda-01.jpg",
     slug: "project-name-2",
   },
   {
