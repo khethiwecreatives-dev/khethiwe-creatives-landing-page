@@ -18,17 +18,17 @@ const PROJECTS = [
     slug: "project-name-2",
   },
   {
-    title: "Project Name",
+    title: "Long Target - Ngimuhle (Cover)",
     category: "Videography",
-    type: "Artist Visual",
-    image: "/projects/video-01.jpg",
+    type: "Music Video",
+    image: "/portfolio/videography/artistVisuals/LongTarget-Ngimuhle Cover.jpg",
     slug: "project-name-3",
   },
   {
-    title: "Project Name",
+    title: "Sellwane",
     category: "Videography",
-    type: "Event Film",
-    image: "/projects/video-02.jpg",
+    type: "Editorial Short Clip",
+    image: "/portfolio/videography/editorial/Sellwane-EditorialWalk.png",
     slug: "project-name-4",
   },
   {
