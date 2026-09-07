@@ -19,7 +19,7 @@ export default function Hero() {
         </a>
 
         {/* Main Statement */}
-        <h1 className="mt-10 max-w-4xl font-display text-[2.4rem] leading-[1.05] tracking-tight text-black text-balance sm:mt-12 sm:text-5xl md:text-6xl">
+        <h1 className="mt-5 md:mt-5 max-w-4xl font-display text-[1.5rem] leading-[1.05] tracking-tight text-black text-balance sm:mt-12 sm:text-5xl md:text-6xl">
           We create the visual world
           <br className="hidden sm:block" />
           <span className="text-accent"> around your vision.</span>

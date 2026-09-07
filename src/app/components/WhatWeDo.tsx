@@ -43,12 +43,12 @@ export default function WhatWeDo() {
           </div>
 
           <div>
-            <h2 className="max-w-3xl font-display text-4xl leading-[1.05] tracking-tight text-black text-balance sm:text-5xl md:text-6xl">
+            <h2 className="max-w-3xl font-display text-xl md:text-2xl leading-[1.05] tracking-tight text-black text-balance sm:text-5xl md:text-6xl">
               We shape the way your
               <span className="text-accent"> vision is seen.</span>
             </h2>
 
-            <p className="mt-6 max-w-xl font-body text-base leading-relaxed text-black/60 sm:text-lg">
+            <p className="mt-6 max-w-xl text-sm font-body text-base leading-relaxed text-black/60 md:text-lg">
               From the first frame to the final pixel, we create visual work that gives people,
               businesses, artists and ideas a stronger presence.
             </p>
@@ -56,7 +56,7 @@ export default function WhatWeDo() {
         </div>
 
         {/* Disciplines */}
-        <div className="mt-20 border-t grid grid-cols-4 border-black/15">
+        <div className="mt-20 border-t grid grid-cols-2 md:grid-cols-4 border-black/15">
           {DISCIPLINES.map((discipline, index) => (
             <Reveal
               key={discipline.number}
@@ -70,14 +70,14 @@ export default function WhatWeDo() {
                 </span>
 
                 {/* Title */}
-                <h3 className="font-display text-2xl leading-tight text-black transition-colors duration-300 group-hover:text-accent sm:text-lg md:text-lg">
+                <h3 className="font-display text-m leading-tight text-black transition-colors duration-300 group-hover:text-accent mr-5 sm:text-m md:text-lg">
                   {discipline.title}
                 </h3>
 
                 <div></div>
 
                 {/* Description */}
-                <p className="max-w-md font-body text-sm leading-relaxed text-black/60 md:ml-auto md:text-[15px]">
+                <p className="max-w-md font-body text-xs leading-relaxed text-black/60 md:ml-auto md:text-[15px]">
                   {discipline.description}
                 </p>
               </article>

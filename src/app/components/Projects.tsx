@@ -173,7 +173,7 @@ export default function Projects() {
             Selected Work
           </p>
 
-          <h2 className="mt-5 font-display text-4xl leading-[1.05] tracking-tight text-black text-balance sm:text-5xl md:text-6xl">
+          <h2 className="mt-5 font-display text-3xl leading-[1.05] tracking-tight text-black text-balance sm:text-3xl md:text-4xl">
             A selection of work across
             <span className="text-accent">
               {" "}
@@ -186,7 +186,7 @@ export default function Projects() {
             PROJECTS BY CATEGORY
         ====================================================== */}
 
-        <div className="mt-20 space-y-24">
+        <div className="mt-10 space-y-24">
 
           {CATEGORIES.map((category) => {
             const categoryProjects = projects.filter(
