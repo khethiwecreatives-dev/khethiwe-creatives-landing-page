@@ -160,7 +160,7 @@ export default function Projects() {
   return (
     <section
       id="work"
-      className="bg-bg-light py-24 md:py-32"
+      className="bg-bg-light py-10 md:py-15"
     >
       <div className="mx-auto max-w-6xl px-6 md:px-10">
 

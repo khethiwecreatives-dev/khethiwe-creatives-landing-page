@@ -31,7 +31,7 @@ export default function WhatWeDo() {
   return (
     <section
       id="what-we-do"
-      className="bg-bg-light py-24 md:py-32"
+      className="bg-bg-light py-2 md:py-2"
     >
       <div className="mx-auto max-w-6xl px-6 md:px-10">
         {/* Introduction */}
@@ -56,23 +56,25 @@ export default function WhatWeDo() {
         </div>
 
         {/* Disciplines */}
-        <div className="mt-20 border-t border-black/15">
+        <div className="mt-20 border-t grid grid-cols-4 border-black/15">
           {DISCIPLINES.map((discipline, index) => (
             <Reveal
               key={discipline.number}
               delay={index * 100}
               className="border-b border-black/15"
             >
-              <article className="group grid gap-6 py-9 md:grid-cols-[100px_1fr_1fr] md:items-start md:py-12">
+              <article className="group grid gap-6 py-9 md:grid-cols-[10px_1fr] md:items-start md:py-12">
                 {/* Number */}
-                <span className="font-body text-[11px] tracking-[0.12em] text-black/40">
+                <span className="font-body text-[8px] tracking-[0.12em] text-black/40">
                   {discipline.number}
                 </span>
 
                 {/* Title */}
-                <h3 className="font-display text-2xl leading-tight text-black transition-colors duration-300 group-hover:text-accent sm:text-3xl md:text-4xl">
+                <h3 className="font-display text-2xl leading-tight text-black transition-colors duration-300 group-hover:text-accent sm:text-lg md:text-lg">
                   {discipline.title}
                 </h3>
+
+                <div></div>
 
                 {/* Description */}
                 <p className="max-w-md font-body text-sm leading-relaxed text-black/60 md:ml-auto md:text-[15px]">
