@@ -73,7 +73,7 @@ export default function Contact() {
                   </p>
 
                   <a
-                    href="tel:+27XXXXXXXXX"
+                    href="tel:+27673479809"
                     className="text-bg-light transition-colors hover:text-secondary"
                   >
                     +27 67 347 9809
@@ -88,7 +88,7 @@ export default function Contact() {
                   <p className="text-bg-light">
                     Klarinet Ext 6
                     <br />
-                    Emalahleni, Mpumalanga
+                    Emalahleni (Witbank), Mpumalanga
                     <br />
                     South Africa
                   </p>
@@ -98,37 +98,35 @@ export default function Contact() {
               {/* Socials */}
               <div className="mt-12">
                 <p className="font-body text-[10px] uppercase tracking-[0.1em] text-bg-light/40">
-                  Follow KC
+                  Follow Khethiwe Creatives
                 </p>
 
                 <div className="mt-4 flex flex-wrap gap-x-6 gap-y-3 font-body text-sm">
                   <a
-                    href="#"
+                    href="https://www.instagram.com/khethiwecreatives2024?igsi=MXRkYnZuYnU0cHh1OQ=="
+                    target="_blank"
                     className="text-bg-light transition-colors hover:text-secondary"
                   >
                     Instagram ↗
                   </a>
 
                   <a
-                    href="#"
+                    href="https://www.behance.net/khethiwcreativ"
+                    target="_blank"
+                    className="text-bg-light transition-colors hover:text-secondary"
+                  >
+                    Behance ↗
+                  </a>
+
+                  <a
+                    href="https://www.linkedin.com/in/khethiwe-creatives-undefined-065435433/"
+                    target="_blank"
                     className="text-bg-light transition-colors hover:text-secondary"
                   >
                     LinkedIn ↗
                   </a>
 
-                  <a
-                    href="#"
-                    className="text-bg-light transition-colors hover:text-secondary"
-                  >
-                    TikTok ↗
-                  </a>
-
-                  <a
-                    href="#"
-                    className="text-bg-light transition-colors hover:text-secondary"
-                  >
-                    Behance ↗
-                  </a>
+                  
                 </div>
               </div>
 
