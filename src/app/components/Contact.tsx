@@ -1,18 +1,19 @@
 "use client";
 
-import { useState, type FormEvent, type ReactNode } from "react";
+import { useActionState, type ReactNode } from "react";
 import Reveal from "./Reveal";
+import {
+  submitContactForm,
+  type FormState,
+} from "../actions/contact";
+
+const INITIAL_STATE: FormState = {};
 
 export default function Contact() {
-  const [sent, setSent] = useState(false);
-
-  function handleSubmit(e: FormEvent<HTMLFormElement>) {
-    e.preventDefault();
-
-    // Temporary confirmation state.
-    // We'll connect this to an email service/API before launch.
-    setSent(true);
-  }
+  const [state, formAction, isPending] = useActionState(
+    submitContactForm,
+    INITIAL_STATE
+  );
 
   return (
     <section
@@ -46,7 +47,7 @@ export default function Contact() {
         {/* Contact + Form */}
         <div className="mt-20 grid gap-16 md:grid-cols-[0.75fr_1.25fr] md:gap-20">
 
-          {/* Contact information */}
+          {/* Contact Information */}
           <Reveal delay={100}>
             <div>
               <p className="font-body text-[11px] uppercase tracking-[0.12em] text-secondary">
@@ -54,13 +55,14 @@ export default function Contact() {
               </p>
 
               <div className="mt-7 space-y-5 font-body text-sm">
+
                 <div>
                   <p className="mb-1 text-[10px] uppercase tracking-[0.1em] text-bg-light/40">
                     Email
                   </p>
 
                   <a
-                    href="mailto:hello@khethiwecreatives.co.za"
+                    href="mailto:khethiwecreatives@gmail.com"
                     className="text-bg-light transition-colors hover:text-secondary"
                   >
                     khethiwecreatives@gmail.com
@@ -105,6 +107,7 @@ export default function Contact() {
                   <a
                     href="https://www.instagram.com/khethiwecreatives2024?igsi=MXRkYnZuYnU0cHh1OQ=="
                     target="_blank"
+                    rel="noopener noreferrer"
                     className="text-bg-light transition-colors hover:text-secondary"
                   >
                     Instagram ↗
@@ -113,6 +116,7 @@ export default function Contact() {
                   <a
                     href="https://www.behance.net/khethiwcreativ"
                     target="_blank"
+                    rel="noopener noreferrer"
                     className="text-bg-light transition-colors hover:text-secondary"
                   >
                     Behance ↗
@@ -121,12 +125,11 @@ export default function Contact() {
                   <a
                     href="https://www.linkedin.com/in/khethiwe-creatives-undefined-065435433/"
                     target="_blank"
+                    rel="noopener noreferrer"
                     className="text-bg-light transition-colors hover:text-secondary"
                   >
                     LinkedIn ↗
                   </a>
-
-                  
                 </div>
               </div>
 
@@ -138,21 +141,24 @@ export default function Contact() {
             </div>
           </Reveal>
 
-          {/* Enquiry form */}
+          {/* Enquiry Form */}
           <Reveal delay={150}>
             <form
-              onSubmit={handleSubmit}
+              action={formAction}
               className="border border-bg-light/15 bg-bg-light/[0.03] p-7 sm:p-9 md:p-10"
             >
-              {sent ? (
+              {state.success ? (
                 <div className="flex min-h-[420px] flex-col justify-center">
                   <p className="font-display text-3xl text-bg-light sm:text-4xl">
                     Enquiry received.
                   </p>
 
                   <p className="mt-4 max-w-md font-body text-sm leading-relaxed text-bg-light/50">
-                    Thanks for reaching out. We'll review your project and
-                    get back to you within 1–2 business days.
+                    {state.message}
+                  </p>
+
+                  <p className="mt-6 font-body text-[10px] uppercase tracking-[0.1em] text-bg-light/30">
+                    Check your inbox for a confirmation email.
                   </p>
                 </div>
               ) : (
@@ -166,7 +172,9 @@ export default function Contact() {
                         name="name"
                         type="text"
                         required
-                        className="input-field"
+                        autoComplete="name"
+                        disabled={isPending}
+                        className="input-field disabled:cursor-not-allowed disabled:opacity-50"
                       />
                     </Field>
 
@@ -176,19 +184,25 @@ export default function Contact() {
                         name="email"
                         type="email"
                         required
-                        className="input-field"
+                        autoComplete="email"
+                        disabled={isPending}
+                        className="input-field disabled:cursor-not-allowed disabled:opacity-50"
                       />
                     </Field>
                   </div>
 
-                  {/* Project type */}
-                  <Field label="Project type" htmlFor="project-type">
+                  {/* Project Type */}
+                  <Field
+                    label="Project type"
+                    htmlFor="projectType"
+                  >
                     <select
-                      id="project-type"
-                      name="project-type"
+                      id="projectType"
+                      name="projectType"
                       required
                       defaultValue=""
-                      className="input-field"
+                      disabled={isPending}
+                      className="input-field disabled:cursor-not-allowed disabled:opacity-50"
                     >
                       <option value="" disabled>
                         Select a service
@@ -204,15 +218,19 @@ export default function Contact() {
                     </select>
                   </Field>
 
-                  {/* Project details */}
-                  <Field label="Tell us about the project" htmlFor="message">
+                  {/* Project Details */}
+                  <Field
+                    label="Tell us about the project"
+                    htmlFor="message"
+                  >
                     <textarea
                       id="message"
                       name="message"
                       required
                       rows={6}
+                      disabled={isPending}
                       placeholder="Tell us what you're working on, what you're looking to create, or where you'd like us to help."
-                      className="input-field resize-none"
+                      className="input-field resize-none disabled:cursor-not-allowed disabled:opacity-50"
                     />
                   </Field>
 
@@ -225,7 +243,8 @@ export default function Contact() {
                       id="referral"
                       name="referral"
                       defaultValue=""
-                      className="input-field"
+                      disabled={isPending}
+                      className="input-field disabled:cursor-not-allowed disabled:opacity-50"
                     >
                       <option value="" disabled>
                         Select an option
@@ -241,12 +260,22 @@ export default function Contact() {
                     </select>
                   </Field>
 
+                  {/* Error */}
+                  {state.error && (
+                    <p className="font-body text-xs leading-relaxed text-red-300">
+                      {state.error}
+                    </p>
+                  )}
+
                   {/* Submit */}
                   <button
                     type="submit"
-                    className="w-full bg-bg-light px-6 py-4 font-body text-[11px] uppercase tracking-[0.1em] text-black transition-colors hover:bg-secondary"
+                    disabled={isPending}
+                    className="w-full bg-bg-light px-6 py-4 font-body text-[11px] uppercase tracking-[0.1em] text-black transition-colors hover:bg-secondary disabled:cursor-not-allowed disabled:opacity-50"
                   >
-                    Send enquiry →
+                    {isPending
+                      ? "Sending enquiry..."
+                      : "Send enquiry →"}
                   </button>
 
                   <p className="text-center font-body text-[10px] leading-relaxed text-bg-light/30">
@@ -258,6 +287,7 @@ export default function Contact() {
               )}
             </form>
           </Reveal>
+
         </div>
       </div>
     </section>
@@ -279,7 +309,9 @@ function Field({
         {label}
       </span>
 
-      <div className="mt-2">{children}</div>
+      <div className="mt-2">
+        {children}
+      </div>
     </label>
   );
 }
