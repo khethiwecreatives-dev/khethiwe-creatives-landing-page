@@ -69,7 +69,6 @@ export const projects: Project[] = [
     type: "Portrait Photography",
     year: 2025,
 
-    // Temporary image until the correct R2 asset is uploaded
     media: {
       thumbnail: media.photography.teekayNokwanda01,
       image: media.photography.teekayNokwanda01,
@@ -151,15 +150,16 @@ export const projects: Project[] = [
      ============================================================ */
 
   {
-    slug: "project-name-5",
-    title: "Project Name",
+    slug: "Vinlaco",
+    title: "Vinlaco Brand Identity",
     category: "Graphic Design & Brand Identity",
+    subcategory: "Brand Identity",
     type: "Brand Identity",
     year: 2026,
 
     media: {
-      thumbnail: "/projects/branding-01.jpg",
-      image: "/projects/branding-01.jpg",
+      thumbnail: media.graphicDesign.vinlaco,
+      image: media.graphicDesign.vinlaco,
     },
 
     description:
@@ -170,21 +170,23 @@ export const projects: Project[] = [
       "Graphic Design",
     ],
 
-    aspect: "square",
+    aspect: "portrait",
     size: "medium",
     objectPosition: "center",
   },
 
+  //Patience Khoza x Khanyisile - Indlu Yothando Imizwilili
   {
-    slug: "project-name-6",
-    title: "Project Name",
+    slug: "Patience Khoza x Khanyisile - Indlu Yothando Imizwilili",
+    title: "Patience Khoza x Khanyisile - Indlu Yothando Imizwilili",
     category: "Graphic Design & Brand Identity",
-    type: "Campaign Design",
+    subcategory: "Music Cover Art",
+    type: "Music Cover Art",
     year: 2026,
 
     media: {
-      thumbnail: "/projects/design-01.jpg",
-      image: "/projects/design-01.jpg",
+      thumbnail: media.graphicDesign.patienceKhanyiIndlu,
+      image: media.graphicDesign.patienceKhanyiIndlu,
     },
 
     description:
@@ -195,11 +197,91 @@ export const projects: Project[] = [
       "Campaign Design",
     ],
 
-    aspect: "landscape",
+    aspect: "square",
+    size: "medium",
+    objectPosition: "center",
+  },
+   
+  //LONG TARGET FT STRUCTURE - CAMAGU
+  {
+    slug: "Long Target - Camagu",
+    title: "Long Target ft Structure & Tyla Shez - Camagu",
+    category: "Graphic Design & Brand Identity",
+    subcategory: "Music Cover Art",
+    type: "Music Cover Art",
+    year: 2025,
+
+    media: {
+      thumbnail: media.graphicDesign.longTargetStructure,
+      image: media.graphicDesign.longTargetStructure,
+    },
+
+    description:
+      "A campaign design project focused on visual communication and consistency.",
+
+    services: [
+      "Graphic Design",
+      "Campaign Design",
+    ],
+
+    aspect: "square",
     size: "medium",
     objectPosition: "center",
   },
 
+  //Long Target - Angizodlala
+  {
+    slug: "Target - Angizodlala",
+    title: "Long Target - Angizodlala",
+    category: "Graphic Design & Brand Identity",
+    subcategory: "Music Cover Art",
+    type: "Music Cover Art",
+    year: 2025,
+
+    media: {
+      thumbnail: media.graphicDesign.longTargetAngizodlala,
+      image: media.graphicDesign.longTargetAngizodlala,
+    },
+
+    description:
+      "A campaign design project focused on visual communication and consistency.",
+
+    services: [
+      "Graphic Design",
+      "Campaign Design",
+    ],
+
+    aspect: "square",
+    size: "medium",
+    objectPosition: "center",
+  },
+
+  //Patience Khoza - Bayekele
+  {
+    slug: "Patience Khoza - Bayekele",
+    title: "Patience Khoza - Bayekele",
+    category: "Graphic Design & Brand Identity",
+    subcategory: "Music Cover Art",
+    type: "Music Cover Art",
+    year: 2026,
+
+    media: {
+      thumbnail: media.graphicDesign.patiencekBayekele,
+      image: media.graphicDesign.patiencekBayekele,
+    },
+
+    description:
+      "A campaign design project focused on visual communication and consistency.",
+
+    services: [
+      "Graphic Design",
+      "Campaign Design",
+    ],
+
+    aspect: "square",
+    size: "medium",
+    objectPosition: "center",
+  },
   /* ============================================================
      WEB DESIGN & DEVELOPMENT
      ============================================================ */

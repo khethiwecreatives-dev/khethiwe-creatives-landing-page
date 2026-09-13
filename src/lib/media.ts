@@ -42,7 +42,13 @@ export const media = {
      GRAPHIC DESIGN
      ============================================================ */
 
-  graphicDesign: {},
+  graphicDesign: {
+    vinlaco: r2Url("portfolio/brand-identity/Vinlaco-v2.jpg"),
+    patienceKhanyiIndlu: r2Url("portfolio/graphic-design/music-cover-art/Patience-Khoza-x-Khanyisile---Indlu'-yothand'-imizwilili.png"),
+    longTargetStructure: r2Url("portfolio/graphic-design/music-cover-art/Long-Target-x-Structure-Musiq.png"),
+    longTargetAngizodlala: r2Url("portfolio/graphic-design/music-cover-art/Long-Target---Art-Cover-(Angizodlala).png"),
+    patiencekBayekele: r2Url("portfolio/graphic-design/music-cover-art/Patience-Khoza--3.png"),
+  },
 
   /* ============================================================
      WEB DEVELOPMENT

@@ -25,6 +25,7 @@ const SUBCATEGORIES: Record<string, string[]> = {
   "Graphic Design & Brand Identity": [
     "Music Cover Art",
     "Poster Designs",
+    "Brand Identity",
     "Marketing Design",
   ],
 };
@@ -306,7 +307,7 @@ export default function WorkPage() {
                       </div>
 
                       <span className="font-body text-[10px] uppercase tracking-[0.12em] text-black/40">
-                        2026
+                        {project.year}
                       </span>
 
                     </div>
