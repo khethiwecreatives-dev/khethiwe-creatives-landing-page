@@ -4,6 +4,7 @@ export type Project = {
   slug: string;
   title: string;
   category: string;
+  subcategory?: string;
   type: string;
 
   /* ============================================================
@@ -34,6 +35,7 @@ export const projects: Project[] = [
     slug: "chptr-iv-chriselda",
     title: "CHPTR IV - Chriselda",
     category: "Photography",
+    subcategory: "Editorial",
     type: "Editorial Photography",
 
     media: {
@@ -63,8 +65,8 @@ export const projects: Project[] = [
 
     // Temporary image until the correct R2 asset is uploaded
     media: {
-      thumbnail: media.photography.chriselda01,
-      image: media.photography.chriselda01,
+      thumbnail: media.photography.teekayNokwanda01,
+      image: media.photography.teekayNokwanda01,
     },
 
     description:
@@ -116,8 +118,8 @@ export const projects: Project[] = [
     type: "Editorial Short Clip",
 
     media: {
-      thumbnail:
-        "/portfolio/videography/editorial/Sellwane-EditorialWalk.png",
+      thumbnail: media.videography.sellwaneEditorial.thumbnail,
+      video: media.videography.sellwaneEditorial.video,
     },
 
     description:

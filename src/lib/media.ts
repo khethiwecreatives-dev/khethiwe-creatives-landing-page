@@ -14,6 +14,7 @@ export const media = {
     chriselda01: r2Url(
       "portfolio/photography/editorial/Chriselda--BY-01.jpg"
     ),
+    teekayNokwanda01: r2Url("portfolio/photography/portrait/TK--Nokwanda-01.jpg"),
   },
 
   /* ============================================================
@@ -30,6 +31,11 @@ export const media = {
         "portfolio/videography/artist-visuals/Ngimuhle-Long-Target-Thumbnail.jpg"
       ),
     },
+    sellwaneEditorial: {
+      video: r2Url("portfolio/videography/editorial/Sellwane Rihanna - BBHMM.mp4"),
+
+      thumbnail: r2Url("portfolio/videography/editorial/Sellwane-editorial-thumbnail.png"),
+    }
   },
 
   /* ============================================================
