@@ -6,6 +6,7 @@ export type Project = {
   category: string;
   subcategory?: string;
   type: string;
+  year: number;
 
   /* ============================================================
      PROJECT MEDIA
@@ -19,6 +20,8 @@ export type Project = {
 
   description?: string;
   services?: string[];
+
+  liveUrl?: string;
 
   aspect: "portrait" | "landscape" | "square";
   size: "small" | "medium" | "large" | "wide";
@@ -37,6 +40,7 @@ export const projects: Project[] = [
     category: "Photography",
     subcategory: "Editorial",
     type: "Editorial Photography",
+    year: 2026,
 
     media: {
       thumbnail: media.photography.chriselda01,
@@ -61,7 +65,9 @@ export const projects: Project[] = [
     slug: "teekay-nokwanda-couple-moment",
     title: "Teekay & Nokwanda Couple Moment",
     category: "Photography",
+    subcategory: "Portraits",
     type: "Portrait Photography",
+    year: 2025,
 
     // Temporary image until the correct R2 asset is uploaded
     media: {
@@ -89,8 +95,10 @@ export const projects: Project[] = [
   {
     slug: "long-target-ngimuhle",
     title: "Long Target - Ngimuhle (Cover)",
+    subcategory: "Artist Visuals",
     category: "Videography",
     type: "Music Video",
+    year: 2026,
 
     media: {
       thumbnail: media.videography.longTargetNgimuhle.thumbnail,
@@ -115,7 +123,9 @@ export const projects: Project[] = [
     slug: "sellwane",
     title: "Sellwane",
     category: "Videography",
+    subcategory: "Editorial",
     type: "Editorial Short Clip",
+    year: 2025,
 
     media: {
       thumbnail: media.videography.sellwaneEditorial.thumbnail,
@@ -145,6 +155,7 @@ export const projects: Project[] = [
     title: "Project Name",
     category: "Graphic Design & Brand Identity",
     type: "Brand Identity",
+    year: 2026,
 
     media: {
       thumbnail: "/projects/branding-01.jpg",
@@ -169,6 +180,7 @@ export const projects: Project[] = [
     title: "Project Name",
     category: "Graphic Design & Brand Identity",
     type: "Campaign Design",
+    year: 2026,
 
     media: {
       thumbnail: "/projects/design-01.jpg",
@@ -197,6 +209,7 @@ export const projects: Project[] = [
     title: "Project Name",
     category: "Web Design & Development",
     type: "Website",
+    year: 2026,
 
     media: {
       thumbnail: "/projects/web-01.jpg",
@@ -221,6 +234,7 @@ export const projects: Project[] = [
     title: "Project Name",
     category: "Web Design & Development",
     type: "Digital Experience",
+    year: 2026,
 
     media: {
       thumbnail: "/projects/web-02.jpg",
