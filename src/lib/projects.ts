@@ -16,6 +16,7 @@ export type Project = {
     thumbnail: string;
     image?: string;
     video?: string;
+    gallery?:string[];
   };
 
   description?: string;
@@ -45,6 +46,11 @@ export const projects: Project[] = [
     media: {
       thumbnail: media.photography.chriselda01,
       image: media.photography.chriselda01,
+
+      gallery: [
+        media.photography.chriselda01,
+        media.photography.chriselda02,
+      ],
     },
 
     description:

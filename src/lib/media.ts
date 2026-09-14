@@ -14,6 +14,7 @@ export const media = {
     chriselda01: r2Url(
       "portfolio/photography/editorial/Chriselda--BY-01.jpg"
     ),
+    chriselda02: r2Url("portfolio/photography/editorial/Chriselda--BY-02.jpg"),
     teekayNokwanda01: r2Url("portfolio/photography/portrait/TK--Nokwanda-01.jpg"),
   },
 

@@ -1,5 +1,6 @@
 import { notFound } from "next/navigation";
 import VideoPlayer from "../../components/VideoPlayer";
+import ProjectGallery from "../../components/ProjectGallery";
 import { getProjectBySlug } from "@/src/lib/projects";
 
 type ProjectPageProps = {
@@ -49,7 +50,13 @@ export default async function ProjectPage({
             poster={project.media.thumbnail}
             title={project.title}
             />
-            ) : project.media.image ? (
+            ) : project.media.gallery?.length ? (
+              <ProjectGallery
+              images={project.media.gallery}
+              title={project.title}
+              />
+            )
+            : project.media.image ? (
             <div className="relative overflow-hidden">
             <img
             src={project.media.image}
