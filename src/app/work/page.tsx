@@ -80,7 +80,7 @@ export default function WorkPage() {
           HEADER
       ===================================================== */}
 
-      <section className="px-6 pb-16 pt-36 sm:px-8 md:px-10 md:pb-20 md:pt-20">
+      <section className="px-6 pb-16 pt-10 sm:px-8 md:px-10 md:pb-20 md:pt-20">
         <div className="mx-auto max-w-6xl">
 
           <BackButton />

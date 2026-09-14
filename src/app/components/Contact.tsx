@@ -29,7 +29,7 @@ export default function Contact() {
               Let's work together
             </p>
 
-            <h2 className="mt-5 font-display text-5xl leading-[0.95] tracking-tight text-bg-light text-balance sm:text-6xl md:text-7xl">
+            <h2 className="mt-5 font-display text-5xl leading-[0.95] tracking-tight text-bg-light text-balance sm:text-4xl md:text-6xl">
               Let's make something
               <span className="block text-accent">
                 worth seeing.

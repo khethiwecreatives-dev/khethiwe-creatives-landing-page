@@ -135,6 +135,7 @@ export const projects: Project[] = [
     objectPosition: "center",
   },
 
+
   {
     slug: "simphiwe-portrait",
     title: "Simphiwe",
@@ -151,6 +152,136 @@ export const projects: Project[] = [
         media.photography.simphiwe01,
         media.photography.simphiwe02,
         media.photography.simphiwe03,
+      ]
+    },
+
+    description:
+      "A portrait moment captured with a natural and intimate visual approach.",
+
+    services: [
+      "Photography",
+      "Retouching",
+    ],
+
+    aspect: "portrait",
+    size: "medium",
+    objectPosition: "center",
+  },
+
+  {
+    slug: "enhle-editorial",
+    title: "CHPTR IV - Minehle",
+    category: "Photography",
+    subcategory: "Editorial",
+    type: "Editorial Photography",
+    year: 2026,
+
+    media: {
+      thumbnail: media.photography.enhle01,
+      image: media.photography.enhle01,
+
+      gallery:[
+        media.photography.enhle01,
+        media.photography.enhle02,
+        media.photography.enhle03,
+      ]
+    },
+
+    description:
+      "A portrait moment captured with a natural and intimate visual approach.",
+
+    services: [
+      "Photography",
+      "Retouching",
+    ],
+
+    aspect: "portrait",
+    size: "medium",
+    objectPosition: "center",
+  },
+
+  {
+    slug: "siphelele-editorial",
+    title: "CHPTR IV - Siphelele",
+    category: "Photography",
+    subcategory: "Editorial",
+    type: "Editorial Photography",
+    year: 2026,
+
+    media: {
+      thumbnail: media.photography.siphelele01,
+      image: media.photography.siphelele01,
+
+      gallery:[
+        media.photography.siphelele01,
+        media.photography.siphelele02,
+        media.photography.siphelele03,
+        media.photography.siphelele04,
+      ]
+    },
+
+    description:
+      "A portrait moment captured with a natural and intimate visual approach.",
+
+    services: [
+      "Photography",
+      "Retouching",
+    ],
+
+    aspect: "portrait",
+    size: "medium",
+    objectPosition: "center",
+  },
+  {
+    slug: "patienceKhoza-artistPhotography",
+    title: "Patience Khoza x Khanyisile - Indlu Yothando",
+    category: "Photography",
+    subcategory: "Artist Photography",
+    type: "Artist Photography",
+    year: 2026,
+
+    media: {
+      thumbnail: media.photography.patienceKhozaIndlu01,
+      image: media.photography.patienceKhozaIndlu01,
+
+      gallery:[
+        media.photography.patienceKhozaIndlu01,
+        media.photography.patienceKhozaIndlu02,
+        media.photography.patienceKhozaIndlu03,
+        media.photography.patienceKhozaIndlu04,
+      ]
+    },
+
+    description:
+      "A portrait moment captured with a natural and intimate visual approach.",
+
+    services: [
+      "Photography",
+      "Retouching",
+    ],
+
+    aspect: "portrait",
+    size: "medium",
+    objectPosition: "center",
+  },
+
+  {
+    slug: "longtargetCamagu-artistPhotography",
+    title: "Long Target x Structure Musiq - Camagu",
+    category: "Photography",
+    subcategory: "Artist Photography",
+    type: "Artist Photography",
+    year: 2025,
+
+    media: {
+      thumbnail: media.photography.longTargetCamagu01,
+      image: media.photography.longTargetCamagu01,
+
+      gallery:[
+        media.photography.longTargetCamagu01,
+        media.photography.longTargetCamagu02,
+        media.photography.longTargetCamagu03,
+        media.photography.longTargetCamagu04,
       ]
     },
 
@@ -225,6 +356,33 @@ export const projects: Project[] = [
     objectPosition: "center",
   },
 
+  {
+    slug: "mbali-cinematic",
+    title: "Mabli - Park Short Film",
+    subcategory: "Cinematic Short Films",
+    category: "Videography",
+    type: "Cinematic Short Films",
+    year: 2024,
+
+    media: {
+      thumbnail: media.videography.mbaliCinematic.thumbnail,
+      video: media.videography.mbaliCinematic.video,
+    },
+
+    description:
+      "A music visual created for Long Target's Ngimuhle, combining performance, atmosphere and cinematic visual storytelling.",
+
+    services: [
+      "Direction",
+      "Cinematography",
+      "Editing",
+    ],
+
+    aspect: "landscape",
+    size: "wide",
+    objectPosition: "center",
+  },
+
   /* ============================================================
      GRAPHIC DESIGN & BRAND IDENTITY
      ============================================================ */
@@ -278,6 +436,36 @@ export const projects: Project[] = [
     ],
 
     aspect: "square",
+    size: "medium",
+    objectPosition: "center",
+  },
+  {
+    slug: "chptr-iv-minehle-cover-design",
+    title: "CHPTR IV - Minenhle Cover Design",
+    category: "Graphic Design & Brand Identity",
+    subcategory: "Editorial Cover",
+    type: "Editorial Cover",
+    year: 2026,
+
+    media: {
+      thumbnail: media.graphicDesign.chptrivMinenhle01,
+      image: media.graphicDesign.chptrivMinenhle02,
+
+      gallery: [
+        media.graphicDesign.chptrivMinenhle01,
+        media.graphicDesign.chptrivMinenhle02,
+      ],
+    },
+
+    description:
+      "A campaign design project focused on visual communication and consistency.",
+
+    services: [
+      "Graphic Design",
+      "Campaign Design",
+    ],
+
+    aspect: "portrait",
     size: "medium",
     objectPosition: "center",
   },
@@ -393,37 +581,6 @@ export const projects: Project[] = [
     size: "medium",
     objectPosition: "center",
   }, 
-
-  {
-    slug: "chptr-iv-minehle-cover-design",
-    title: "CHPTR IV - Minenhle Cover Design",
-    category: "Graphic Design & Brand Identity",
-    subcategory: "Editorial Cover",
-    type: "Editorial Cover",
-    year: 2026,
-
-    media: {
-      thumbnail: media.graphicDesign.chptrivMinenhle01,
-      image: media.graphicDesign.chptrivMinenhle02,
-
-      gallery: [
-        media.graphicDesign.chptrivMinenhle01,
-        media.graphicDesign.chptrivMinenhle02,
-      ],
-    },
-
-    description:
-      "A campaign design project focused on visual communication and consistency.",
-
-    services: [
-      "Graphic Design",
-      "Campaign Design",
-    ],
-
-    aspect: "portrait",
-    size: "medium",
-    objectPosition: "center",
-  },
 
   {
     slug: "chptr-iv-siphelele-cover-design",

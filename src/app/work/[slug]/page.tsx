@@ -2,6 +2,7 @@ import { notFound } from "next/navigation";
 import VideoPlayer from "../../components/VideoPlayer";
 import ProjectGallery from "../../components/ProjectGallery";
 import { getProjectBySlug } from "@/src/lib/projects";
+import BackButton from "../../components/BackButton";
 
 type ProjectPageProps = {
   params: Promise<{
@@ -22,7 +23,9 @@ export default async function ProjectPage({
 
   return (
     <main className="min-h-screen bg-bg-light">
-      <div className="mx-auto max-w-6xl px-6 py-20 md:px-10 md:py-28">
+      <div className="mx-auto max-w-6xl px-6 py-10 md:px-10 md:py-28">
+
+        <BackButton />
 
         {/* Project Category */}
         <p className="font-body text-[11px] uppercase tracking-[0.12em] text-accent">

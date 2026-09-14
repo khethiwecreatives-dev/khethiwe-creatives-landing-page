@@ -1,3 +1,5 @@
+import { Video } from "lucide-react";
+
 export const R2_BASE_URL =
   "https://pub-803b3b3d93b74c55b52a07f14de345ae.r2.dev";
 
@@ -28,6 +30,26 @@ export const media = {
     simphiwe01: r2Url("portfolio/photography/portrait/Simphiwe-01.jpg"),
     simphiwe02: r2Url("portfolio/photography/portrait/Simphiwe-02.jpg"),
     simphiwe03: r2Url("portfolio/photography/portrait/Simphiwe-03.jpg"),
+
+    enhle01: r2Url("portfolio/photography/editorial/Enhle--BG-01.jpg"),
+    enhle02: r2Url("portfolio/photography/editorial/Enhle--BG-02.jpg"),
+    enhle03: r2Url("portfolio/photography/editorial/Enhle--BG-03.jpg"),
+
+    siphelele01: r2Url("portfolio/photography/editorial/Siphelele--01.jpg"),
+    siphelele02: r2Url("portfolio/photography/editorial/Siphelele--02.jpg"),
+    siphelele03: r2Url("portfolio/photography/editorial/Siphelele--03.jpg"),
+    siphelele04: r2Url("portfolio/photography/editorial/Siphelele--04.jpg"),
+
+
+    longTargetCamagu01: r2Url("portfolio/photography/artist-photography/longTarget--Camagu01.jpg"),
+    longTargetCamagu02: r2Url("portfolio/photography/artist-photography/longTarget--Camagu02.jpg"),
+    longTargetCamagu03: r2Url("portfolio/photography/artist-photography/longTarget--Camagu03.jpg"),
+    longTargetCamagu04: r2Url("portfolio/photography/artist-photography/longTarget--Camagu04.jpg"),
+
+    patienceKhozaIndlu01: r2Url("portfolio/photography/artist-photography/patienceKhoza--IndluYothando-01.jpg"),
+    patienceKhozaIndlu02: r2Url("portfolio/photography/artist-photography/patienceKhoza--IndluYothando-02.jpg"),
+    patienceKhozaIndlu03: r2Url("portfolio/photography/artist-photography/patienceKhoza--IndluYothando-03.jpg"),
+    patienceKhozaIndlu04: r2Url("portfolio/photography/artist-photography/patienceKhoza--IndluYothando-04.jpg"),
   },
 
   /* ============================================================
@@ -48,6 +70,11 @@ export const media = {
       video: r2Url("portfolio/videography/editorial/Sellwane Rihanna - BBHMM.mp4"),
 
       thumbnail: r2Url("portfolio/videography/editorial/Sellwane-editorial-thumbnail.png"),
+    },
+    mbaliCinematic: {
+      video: r2Url("portfolio/videography/cinematics/Mbali Brightt HD.mp4"),
+
+      thumbnail: r2Url("portfolio/videography/cinematics/mbaliCinematic--thumbnail.png"),
     }
   },
 

@@ -14,14 +14,14 @@ export default function About() {
               About
             </p>
 
-            <h2 className="mt-5 font-display text-4xl leading-[1.05] tracking-tight text-black text-balance sm:text-5xl md:text-6xl">
+            <h2 className="mt-5 font-display text-4xl leading-[1.05] tracking-tight text-black text-balance sm:text-5xl md:text-5xl">
               Built to
               <span className="text-accent"> evolve.</span>
             </h2>
           </Reveal>
 
           <Reveal delay={120}>
-            <div className="max-w-xl space-y-5 font-body text-[15px] leading-relaxed text-black/65 md:text-base">
+            <div className="max-w-xl space-y-5 font-body text-[15px] leading-relaxed text-black/65 md:text-[14px]">
               <p>
                 Khethiwe Creatives is a creative studio built around one
                 belief: nothing meaningful stays the same.
@@ -34,7 +34,7 @@ export default function About() {
               </p>
 
               <p>
-                Our role is to help shape that transition — turning vision
+                Our role is to help shape that transition, turning vision
                 into creative work that gives people, businesses, artists
                 and ideas a stronger presence.
               </p>
@@ -57,7 +57,7 @@ export default function About() {
                 <span className="text-accent"> becoming.</span>
               </h3>
 
-              <div className="mt-7 max-w-2xl space-y-5 font-body text-[15px] leading-relaxed text-black/60 md:text-base">
+              <div className="mt-7 max-w-2xl space-y-5 font-body text-[15px] leading-relaxed text-black/60 md:text-[14px]">
                 <p>
                   Every business starts somewhere. Every creator has a
                   first expression. Every personal brand begins with an

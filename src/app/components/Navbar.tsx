@@ -67,7 +67,7 @@ export default function Navbar() {
           {/* Desktop CTA */}
           <a
             href="#contact"
-            className="hidden rounded-md bg-black px-5 py-2.5 text-[11px] text-bg-light transition-colors hover:bg-accent md:inline-block"
+            className="hidden bg-black px-5 py-2.5 text-[11px] text-bg-light transition-colors hover:bg-accent md:inline-block"
           >
             Start a project
           </a>
@@ -141,7 +141,7 @@ export default function Navbar() {
               <a
                 href="#contact"
                 onClick={() => setOpen(false)}
-                className="inline-block rounded-md bg-black px-5 py-2.5 text-[11px] text-bg-light transition-colors hover:bg-accent"
+                className="inline-block  bg-black px-5 py-2.5 text-[11px] text-bg-light transition-colors hover:bg-accent"
               >
                 Start a project
               </a>
