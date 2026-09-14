@@ -13,7 +13,7 @@ const SERVICES = [
       "Events",
       "Lifestyle",
     ],
-    pricing: "From R1,000",
+    pricing: "From R500",
     pricingNote: "Final pricing depends on the shoot requirements.",
   },
   {
@@ -23,14 +23,12 @@ const SERVICES = [
       "Moving image built to capture attention, communicate a story and give your ideas presence.",
     services: [
       "Artist Visuals",
-      "Promotional Video",
       "Social Content",
       "Short-form Video",
       "Events",
-      "BTS Content",
       "Video Editing",
     ],
-    pricing: "From R2,500",
+    pricing: "From R1,500",
     pricingNote:
       "Quoted according to production scope, deliverables and post-production.",
   },
@@ -45,13 +43,12 @@ const SERVICES = [
       "Typography & Colour",
       "Brand Guidelines",
       "Posters",
-      "Social Graphics",
-      "Campaign Design",
-      "Print & Digital",
+      "Marketing Design",
+      "Digital",
     ],
-    pricing: "From R2,500",
+    pricing: "From R500 - R1,500",
     pricingNote:
-      "Smaller design projects may have starting prices; larger identity work is scoped individually.",
+      "Smaller design projects have starting prices; larger identity work is scoped individually.",
   },
  /* {
     number: "04",
@@ -87,7 +84,7 @@ export default function Services() {
             Services & Pricing
           </p>
 
-          <h2 className="mt-5 font-display text-4xl leading-[1.05] tracking-tight text-black text-balance sm:text-5xl md:text-6xl">
+          <h2 className="mt-5 font-display text-4xl leading-[1.05] tracking-tight text-black text-balance sm:text-4xl md:text-5xl">
             Creative work with purpose,
             <br className="hidden sm:block" />
             <span className="text-accent">
@@ -95,7 +92,7 @@ export default function Services() {
             </span>
           </h2>
 
-          <p className="mt-6 max-w-2xl font-body text-base leading-relaxed text-black/65 sm:text-lg">
+          <p className="mt-6 max-w-2xl font-body text-base leading-relaxed text-black/65 sm:text-md">
             From visual storytelling to digital experiences, Khethiwe Creatives brings photography, film, design and technology 
             together to help people, businesses, artists and ideas make an impression.
           </p>
@@ -123,7 +120,7 @@ export default function Services() {
                       {service.title}
                     </h3>
 
-                    <p className="mt-4 max-w-xl font-body text-[15px] leading-relaxed text-black/65 sm:text-base">
+                    <p className="mt-4 max-w-xl font-body text-[10px] leading-relaxed text-black/65 sm:text-[15px]">
                       {service.description}
                     </p>
                   </div>
@@ -196,7 +193,7 @@ export default function Services() {
 
             <a
               href="#contact"
-              className="inline-flex w-fit rounded-full bg-black px-7 py-3.5 font-body text-[11px] uppercase tracking-[0.08em] text-bg-light transition-colors hover:bg-accent"
+              className="inline-flex w-fit  bg-black px-7 py-3.5 font-body text-[11px] uppercase tracking-[0.08em] text-bg-light transition-colors hover:bg-accent"
             >
               Start a project
             </a>

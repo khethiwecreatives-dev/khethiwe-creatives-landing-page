@@ -80,13 +80,11 @@ export default function WorkPage() {
           HEADER
       ===================================================== */}
 
-      <section className="px-6 pb-16 pt-36 sm:px-8 md:px-10 md:pb-20 md:pt-44">
+      <section className="px-6 pb-16 pt-36 sm:px-8 md:px-10 md:pb-20 md:pt-20">
         <div className="mx-auto max-w-6xl">
 
           <BackButton />
-          <p className="font-body text-[10px] uppercase tracking-[0.18em] text-black/50">
-            Khethiwe Creatives
-          </p>
+          
 
           <div className="mt-5 flex flex-col gap-8 md:flex-row md:items-end md:justify-between">
 
@@ -365,7 +363,7 @@ export default function WorkPage() {
 
             <Link
               href="/#contact"
-              className="inline-flex w-fit rounded-full bg-black px-7 py-3.5 font-body text-[10px] uppercase tracking-[0.12em] text-bg-light transition-colors hover:bg-accent"
+              className="inline-flex w-fit bg-black px-7 py-3.5 font-body text-[10px] uppercase tracking-[0.12em] text-bg-light transition-colors hover:bg-accent"
             >
               Start a project
             </Link>

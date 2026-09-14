@@ -172,7 +172,7 @@ export default function Projects() {
 
           <Link
             href="/work"
-            className="inline-flex rounded-full bg-black px-8 py-4 font-body text-[11px] uppercase tracking-[0.1em] text-bg-light transition-colors hover:bg-accent"
+            className="inline-flex  bg-black px-8 py-4 font-body text-[11px] uppercase tracking-[0.1em] text-bg-light transition-colors hover:bg-accent"
           >
             View all projects
           </Link>
