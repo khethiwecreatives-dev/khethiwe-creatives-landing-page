@@ -53,7 +53,7 @@ const SERVICES = [
     pricingNote:
       "Smaller design projects may have starting prices; larger identity work is scoped individually.",
   },
-  {
+ /* {
     number: "04",
     title: "Web Design & Development",
     description:
@@ -71,7 +71,7 @@ const SERVICES = [
     pricing: "From R3,500",
     pricingNote:
       "Pricing depends on pages, functionality, integrations and development requirements.",
-  },
+  }, */
 ];
 
 export default function Services() {

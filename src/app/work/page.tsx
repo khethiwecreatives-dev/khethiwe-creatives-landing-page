@@ -25,7 +25,7 @@ const SUBCATEGORIES: Record<string, string[]> = {
   "Graphic Design & Brand Identity": [
     "Editorial Cover",
     "Music Cover Art",
-    "Poster Designs",
+   // "Poster Designs",
     "Brand Identity",
     "Marketing Design",
   ],

@@ -63,7 +63,7 @@ export default function Contact() {
 
                   <a
                     href="mailto:khethiwecreatives@gmail.com"
-                    className="text-bg-light transition-colors hover:text-secondary"
+                    className="text-bg-light transition-colors hover:text-accent"
                   >
                     khethiwecreatives@gmail.com
                   </a>
@@ -76,7 +76,7 @@ export default function Contact() {
 
                   <a
                     href="tel:+27673479809"
-                    className="text-bg-light transition-colors hover:text-secondary"
+                    className="text-bg-light transition-colors hover:text-accent"
                   >
                     +27 67 347 9809
                   </a>
@@ -108,7 +108,7 @@ export default function Contact() {
                     href="https://www.instagram.com/khethiwecreatives2024?igsi=MXRkYnZuYnU0cHh1OQ=="
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="text-bg-light transition-colors hover:text-secondary"
+                    className="text-bg-light transition-colors hover:text-accent"
                   >
                     Instagram ↗
                   </a>
@@ -117,7 +117,7 @@ export default function Contact() {
                     href="https://www.behance.net/khethiwcreativ"
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="text-bg-light transition-colors hover:text-secondary"
+                    className="text-bg-light transition-colors hover:text-accent"
                   >
                     Behance ↗
                   </a>
@@ -126,7 +126,7 @@ export default function Contact() {
                     href="https://www.linkedin.com/in/khethiwe-creatives-undefined-065435433/"
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="text-bg-light transition-colors hover:text-secondary"
+                    className="text-bg-light transition-colors hover:text-accent"
                   >
                     LinkedIn ↗
                   </a>
@@ -174,7 +174,7 @@ export default function Contact() {
                         required
                         autoComplete="name"
                         disabled={isPending}
-                        className="input-field disabled:cursor-not-allowed disabled:opacity-50"
+                        className="input-field border-b border-gray-300 disabled:cursor-not-allowed disabled:opacity-50"
                       />
                     </Field>
 
@@ -212,7 +212,7 @@ export default function Contact() {
                       <option>Videography</option>
                       <option>Graphic Design</option>
                       <option>Brand Identity</option>
-                      <option>Web Design & Development</option>
+                     {/*  <option>Web Design & Development</option> */}
                       <option>Multiple Services</option>
                       <option>Not sure yet</option>
                     </select>
@@ -271,7 +271,7 @@ export default function Contact() {
                   <button
                     type="submit"
                     disabled={isPending}
-                    className="w-full bg-bg-light px-6 py-4 font-body text-[11px] uppercase tracking-[0.1em] text-black transition-colors hover:bg-secondary disabled:cursor-not-allowed disabled:opacity-50"
+                    className="w-full bg-bg-light px-6 py-4 font-body text-[11px] uppercase tracking-[0.1em] text-black transition-colors hover:bg-accent disabled:cursor-not-allowed disabled:opacity-50"
                   >
                     {isPending
                       ? "Sending enquiry..."

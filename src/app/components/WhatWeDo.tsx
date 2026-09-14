@@ -19,12 +19,12 @@ const DISCIPLINES = [
     description:
       "Visual identities and design that make businesses, artists and personal brands recognisable.",
   },
-  {
+  /* {
     number: "04",
     title: "Web Design & Development",
     description:
       "Digital experiences that connect your vision with the people you're trying to reach.",
-  },
+  }, */
 ];
 
 export default function WhatWeDo() {
@@ -56,7 +56,7 @@ export default function WhatWeDo() {
         </div>
 
         {/* Disciplines */}
-        <div className="mt-20 border-t grid grid-cols-2 md:grid-cols-4 border-black/15">
+        <div className="mt-20 border-t grid grid-cols-2 md:grid-cols-3 border-black/15">
           {DISCIPLINES.map((discipline, index) => (
             <Reveal
               key={discipline.number}

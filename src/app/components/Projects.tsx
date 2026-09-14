@@ -54,7 +54,7 @@ export default function Projects() {
           {CATEGORIES.map((category) => {
             const categoryProjects = projects.filter(
               (project) => project.category === category
-            ).slice(0, 2);
+            ).slice(0, 3);
 
             // Don't render empty categories
             if (categoryProjects.length === 0) {

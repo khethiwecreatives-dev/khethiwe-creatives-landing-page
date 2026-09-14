@@ -50,6 +50,7 @@ export const projects: Project[] = [
       gallery: [
         media.photography.chriselda01,
         media.photography.chriselda02,
+        media.photography.chriselda03,
       ],
     },
 
@@ -89,6 +90,41 @@ export const projects: Project[] = [
     ],
 
     aspect: "portrait",
+    size: "medium",
+    objectPosition: "center",
+  },
+
+  {
+    slug: "soga-2024",
+    title: "SOGA - 2024 NYE",
+    category: "Photography",
+    subcategory: "Events",
+    type: "Events Photography",
+    year: 2024,
+
+    media: {
+      thumbnail: media.photography.soga202401,
+      image: media.photography.soga202401,
+
+      gallery: [
+        media.photography.soga202401,
+        media.photography.soga202402,
+        media.photography.soga202403,
+        media.photography.soga202404,
+        media.photography.soga202405,
+      ],
+    },
+
+    description:
+      "An editorial portrait series exploring character, presence and visual storytelling.",
+
+    services: [
+      "Creative Direction",
+      "Photography",
+      "Retouching",
+    ],
+
+    aspect: "landscape",
     size: "medium",
     objectPosition: "center",
   },
@@ -156,7 +192,7 @@ export const projects: Project[] = [
      ============================================================ */
 
   {
-    slug: "Vinlaco",
+    slug: "vinlaco",
     title: "Vinlaco Brand Identity",
     category: "Graphic Design & Brand Identity",
     subcategory: "Brand Identity",
@@ -183,7 +219,7 @@ export const projects: Project[] = [
 
   //Patience Khoza x Khanyisile - Indlu Yothando Imizwilili
   {
-    slug: "Patience Khoza x Khanyisile - Indlu Yothando Imizwilili",
+    slug: "patience-Khoza-x-Khanyisile-Indlu-Yothando-Imizwilili",
     title: "Patience Khoza x Khanyisile - Indlu Yothando Imizwilili",
     category: "Graphic Design & Brand Identity",
     subcategory: "Music Cover Art",
@@ -210,7 +246,7 @@ export const projects: Project[] = [
    
   //LONG TARGET FT STRUCTURE - CAMAGU
   {
-    slug: "Long Target - Camagu",
+    slug: "long-target-camagu",
     title: "Long Target ft Structure & Tyla Shez - Camagu",
     category: "Graphic Design & Brand Identity",
     subcategory: "Music Cover Art",
@@ -237,7 +273,7 @@ export const projects: Project[] = [
 
   //Long Target - Angizodlala
   {
-    slug: "Target - Angizodlala",
+    slug: "target-angizodlala",
     title: "Long Target - Angizodlala",
     category: "Graphic Design & Brand Identity",
     subcategory: "Music Cover Art",
@@ -264,7 +300,7 @@ export const projects: Project[] = [
 
   //Patience Khoza - Bayekele
   {
-    slug: "Patience Khoza - Bayekele",
+    slug: "patience-khoza-bayekele",
     title: "Patience Khoza - Bayekele",
     category: "Graphic Design & Brand Identity",
     subcategory: "Music Cover Art",
@@ -288,9 +324,130 @@ export const projects: Project[] = [
     size: "medium",
     objectPosition: "center",
   },
+
+  {
+    slug: "chptr-iv-chriselda-cover-design",
+    title: "CHPTR IV - Chriselda Cover Design",
+    category: "Graphic Design & Brand Identity",
+    subcategory: "Editorial Cover",
+    type: "Editorial Cover",
+    year: 2026,
+
+    media: {
+      thumbnail: media.graphicDesign.chptrivChriselda01,
+      image: media.graphicDesign.chptrivChriselda01,
+
+      gallery: [
+        media.graphicDesign.chptrivChriselda01,
+        media.graphicDesign.chptrivChriselda02,
+      ],
+    },
+
+    description:
+      "A campaign design project focused on visual communication and consistency.",
+
+    services: [
+      "Graphic Design",
+      "Campaign Design",
+    ],
+
+    aspect: "portrait",
+    size: "medium",
+    objectPosition: "center",
+  }, 
+
+  {
+    slug: "chptr-iv-minehle-cover-design",
+    title: "CHPTR IV - Minenhle Cover Design",
+    category: "Graphic Design & Brand Identity",
+    subcategory: "Editorial Cover",
+    type: "Editorial Cover",
+    year: 2026,
+
+    media: {
+      thumbnail: media.graphicDesign.chptrivMinenhle01,
+      image: media.graphicDesign.chptrivMinenhle02,
+
+      gallery: [
+        media.graphicDesign.chptrivMinenhle01,
+        media.graphicDesign.chptrivMinenhle02,
+      ],
+    },
+
+    description:
+      "A campaign design project focused on visual communication and consistency.",
+
+    services: [
+      "Graphic Design",
+      "Campaign Design",
+    ],
+
+    aspect: "portrait",
+    size: "medium",
+    objectPosition: "center",
+  },
+
+  {
+    slug: "chptr-iv-siphelele-cover-design",
+    title: "CHPTR IV - Siphelele Cover Design",
+    category: "Graphic Design & Brand Identity",
+    subcategory: "Editorial Cover",
+    type: "Editorial Cover",
+    year: 2026,
+
+    media: {
+      thumbnail: media.graphicDesign.chptrivSiphelele01,
+      image: media.graphicDesign.chptrivSiphelele01,
+
+      gallery: [
+        media.graphicDesign.chptrivSiphelele01,
+        media.graphicDesign.chptrivSiphelele02,
+      ],
+    },
+
+    description:
+      "A campaign design project focused on visual communication and consistency.",
+
+    services: [
+      "Graphic Design",
+      "Campaign Design",
+    ],
+
+    aspect: "portrait",
+    size: "medium",
+    objectPosition: "center",
+  },
+
+  {
+    slug: "vinlaco-marketing-design",
+    title: "Vinlaco - Marketing Design",
+    category: "Graphic Design & Brand Identity",
+    subcategory: "Marketing Design",
+    type: "Marketing Design",
+    year: 2026,
+
+    media: {
+      thumbnail: media.graphicDesign.vinlacoHoodiePromo,
+      image: media.graphicDesign.vinlacoHoodiePromo,
+
+    },
+
+    description:
+      "A campaign design project focused on visual communication and consistency.",
+
+    services: [
+      "Graphic Design",
+      "Campaign Design",
+    ],
+
+    aspect: "portrait",
+    size: "medium",
+    objectPosition: "center",
+  },
+  
   /* ============================================================
      WEB DESIGN & DEVELOPMENT
-     ============================================================ */
+     ============================================================ 
 
   {
     slug: "project-name-7",
@@ -340,14 +497,14 @@ export const projects: Project[] = [
     aspect: "landscape",
     size: "wide",
     objectPosition: "center",
-  },
+  },*/
 ];
 
 export const CATEGORIES = [
   "Photography",
   "Videography",
   "Graphic Design & Brand Identity",
-  "Web Design & Development",
+ // "Web Design & Development",
 ];
 
 export function getProjectBySlug(slug: string) {
