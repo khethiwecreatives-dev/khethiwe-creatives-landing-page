@@ -14,13 +14,20 @@ export const media = {
     chriselda01: r2Url("portfolio/photography/editorial/Chriselda--BY-01.jpg"),
     chriselda02: r2Url("portfolio/photography/editorial/Chriselda--BY-02.jpg"),
     chriselda03: r2Url("portfolio/photography/editorial/Chriselda--BY-03.jpg"),
+
     teekayNokwanda01: r2Url("portfolio/photography/portrait/TK--Nokwanda-01.jpg"),
+    teekayNokwanda02: r2Url("portfolio/photography/portrait/TK--Nokwanda-02.jpg"),
+    teekayNokwanda03: r2Url("portfolio/photography/portrait/TK--Nokwanda-03.jpg"),
 
     soga202401: r2Url("portfolio/photography/events/Soga01-2024.jpg"),
     soga202402: r2Url("portfolio/photography/events/Soga02-2024.jpg"),
     soga202403: r2Url("portfolio/photography/events/Soga03-2024.jpg"),
     soga202404: r2Url("portfolio/photography/events/Soga04-2024.jpg"),
     soga202405: r2Url("portfolio/photography/events/Soga05-2024.jpg"),
+
+    simphiwe01: r2Url("portfolio/photography/portrait/Simphiwe-01.jpg"),
+    simphiwe02: r2Url("portfolio/photography/portrait/Simphiwe-02.jpg"),
+    simphiwe03: r2Url("portfolio/photography/portrait/Simphiwe-03.jpg"),
   },
 
   /* ============================================================

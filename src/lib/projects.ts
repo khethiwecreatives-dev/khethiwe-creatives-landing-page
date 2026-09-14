@@ -79,6 +79,12 @@ export const projects: Project[] = [
     media: {
       thumbnail: media.photography.teekayNokwanda01,
       image: media.photography.teekayNokwanda01,
+
+      gallery:[
+        media.photography.teekayNokwanda01,
+        media.photography.teekayNokwanda02,
+        media.photography.teekayNokwanda03,
+      ]
     },
 
     description:
@@ -125,6 +131,38 @@ export const projects: Project[] = [
     ],
 
     aspect: "landscape",
+    size: "medium",
+    objectPosition: "center",
+  },
+
+  {
+    slug: "simphiwe-portrait",
+    title: "Simphiwe",
+    category: "Photography",
+    subcategory: "Portraits",
+    type: "Portrait Photography",
+    year: 2025,
+
+    media: {
+      thumbnail: media.photography.simphiwe01,
+      image: media.photography.simphiwe01,
+
+      gallery:[
+        media.photography.simphiwe01,
+        media.photography.simphiwe02,
+        media.photography.simphiwe03,
+      ]
+    },
+
+    description:
+      "A portrait moment captured with a natural and intimate visual approach.",
+
+    services: [
+      "Photography",
+      "Retouching",
+    ],
+
+    aspect: "portrait",
     size: "medium",
     objectPosition: "center",
   },
